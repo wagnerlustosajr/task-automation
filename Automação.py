@@ -7,17 +7,17 @@ pyautogui.press("win")
 pyautogui.write("chrome")
 pyautogui.press("enter")
 
-link = "https://dlp.hashtagtreinamentos.com/python/intensivao/login" # Variável
+link = " " # Variável
 pyautogui.write(link)
 pyautogui.press("enter")
 
 time.sleep(2)
 
-pyautogui.click(x=872, y=525) # Variável
+pyautogui.click(x=, y=) # Variável
 
-pyautogui.write("bsromeo@gmail.com") # Variável
+pyautogui.write("@gmail.com") # Variável
 pyautogui.press("tab")
-pyautogui.write("minhasenha") # Variável
+pyautogui.write("*******") # Variável
 pyautogui.press("tab")
 pyautogui.press("enter")
 time.sleep(2)
@@ -29,7 +29,7 @@ print(tabela)
 
 for linha in tabela.index:
   
-    pyautogui.click(x=591, y=361) # Variável
+    pyautogui.click(x=, y=) # Variável
     codigo = tabela.loc[linha, "codigo"]
     pyautogui.write(str(codigo))
     pyautogui.press("tab")
